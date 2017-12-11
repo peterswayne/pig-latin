@@ -1,0 +1,15 @@
+
+
+word=input("Enter a word\n")
+#checking if a string was entered and is only characters
+if len(word)>0 and word.isalpha():
+#split it into sections i need
+  start=word[:1]
+  middle=word[1:]
+  end="ay"
+  #concatenate it into correct format
+  piggy=middle+start+end
+else:
+  print("You need to enter a word you noob")
+
+print(piggy)
